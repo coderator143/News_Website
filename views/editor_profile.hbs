@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">  
+<head>
+    <meta charset="utf-8">
+    <title>The Bulletin-News That Matters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo-letter-b-vector-22854884.jpg">
+    <link rel="stylesheet" href="../public/css/style_homepage.css">
+</head>
+<body>
+  <!-- Logo -->
+  <div class="bar">
+    <div class="logo">
+         <a href="page1.html"><img src="bulletin_final.png" alt=""></a>
+    </div>
+    </div>
+    <div class="full-date">
+        <label class="date">Date </label>
+        <label class="month">Month </label>
+        <label class="year">Year </label>
+        <label class="comma">,</label>
+        <label class="hour">  hour</label>
+        <label class="sep">:</label>
+        <label class="minutes">minutes</label>
+        <!-- <label class="sep">:</label> -->
+        <!-- <label class="seconds">seconds</label> -->
+        <label class="dot">.</label>
+        <label class="paper">E - paper</label>
+        <script src="date.js"></script>
+        <a href="#" class="fa fa-facebook"></a>
+        <label class="dot">.</label>
+        <a href="#" class="fa fa-twitter"></a>
+        <label class="dot">.</label>
+        <a href="#" class="fa fa-instagram"></a>
+        <label class="dot">.</label>
+        <a href="#" class="fa fa-google"></a>
+    </div>
+    <div class="bar-2">
+        <div class="links">
+            <a class="home" href="page1.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">General</button>
+              <div class="dropdown-content">
+                <button class="ABC-News-general" id="ABC News general" >ABC News</button>
+                <button class="ABC-News-general" id="BBC News general" >BBC News</button>
+                <button class="ABC-News-general" id="CNN general" >CNN</button>
+                <button class="ABC-News-general" id="The Times of India general" >The Times of India</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Sports</button>
+              <div class="dropdown-content">
+                <button class="ABC-News-general" id="BBC Sport" >BBC Sport</button>
+                <button class="ABC-News-general" id="ESPN Sport" >ESPN</button>
+                <button class="ABC-News-general" id="Fox Sports" >Fox Sports</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Business</button>
+              <div class="dropdown-content">
+                <button class="ABC-News-general" id="Bloomberg Business" >Bloomberg</button>
+                <button class="ABC-News-general" id="Business Insider Business" >Business Insider</button>
+                <button class="ABC-News-general" id="CNBC Business" >CNBC</button>
+                <button class="ABC-News-general" id="Fortune Business" >Fortune</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Technology</button>
+              <div class="dropdown-content">
+                <button class="ABC-News-general" id="Wired Technology" >Wired</button>
+                <button class="ABC-News-general" id="Hacker News Technology" >Hacker News</button>
+                <button class="ABC-News-general" id="The Verge Technology" >The Verge</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Entertainment</button>
+              <div class="dropdown-content">
+                <button class="ABC-News-general" id="Buzzfeed Entertainment" >Buzzfeed</button>
+                <button class="ABC-News-general" id="MTV News Entertainment" >MTV News</button>
+                <button class="ABC-News-general" id="Entertainment Weekly Entertainment" >Entertainment Weekly</button>
+              </div>
+            </div>
+            <input class="search" name="search" type="text" placeholder="Search" tabindex="-1" aria-hidden="true">
+            <!-- <span id="clearBtn1" class="clearBtn">X</span> -->
+            <div class="dropdown-user">
+            <button class="userid">{{name}}</button>
+            {{!-- <div class="dropdown-content-user">
+              <a href="http://localhost:4000/users/profile">My Profile</a>
+              <a href="page1.html">Logout</a>
+              </div>
+            </div> --}}
+        </div>
+    </div>
+    <div class="foo">
+    <div class="usl">
+        <h2 class="hed">Editor's Profile</h2>
+    </div>
+    <div class="user">
+        <div class="column-user">
+            <div class="card-user"><img src="userbn.png" class="bn">
+          </div>
+        </div>
+        <div class="column-user">
+          <div class="card-user-1"><p class="user-details">{{name}}</p>
+          <p class="user-details-1">Email</p>
+          <p class="user-details-2">{{email}}</p>
+          <br>
+          <a href="http://localhost:4000/articles" target="_blank"><button type="submit" class="user-details-2">Proofread Articles</button></a>
+          <a href="http://localhost:4000/articles/proof" target="_blank"><button type="submit" class="user-details-2">Read approved articles</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="article-user">
+      <h2 class="article-heading">Articles by You</h2>
+    </div>
+    <div class="last">
+        <div class="end">
+         <div class="col"><label class="ez">THE BULLETIN</label>
+          <a class="wer" href="about.html"> <ul class="ui">About Us</ul></a>
+           <ul class="ui">Contact Us</ul>
+           <ul class="ui">Terms of Use</ul>
+           <ul class="ui">Privacy Policy</ul>
+         </div>
+         <div class="col"><label class="ezy">LINKS</label>
+           <ul class="uii">Home</ul>
+           <ul class="uii">Opinion</ul>
+           <ul class="uii">India</ul>
+           <ul class="uii">World</ul>
+           <ul class="uii">Sports</ul>
+           <ul class="uii">Business</ul>
+           <ul class="uii">Technology</ul>
+           <ul class="uii">Entertainment</ul>
+          </div>
+          <div class="col"><label class="ezyy">FOLLOW US</label>
+           <ul class="uii">Facebook</ul>
+           <ul class="uii">Twitter</ul>
+           <ul class="uii">Instagram</ul>
+         </div>
+        </div>
+        <svg  class="sv"height="20" width="1500">
+         <line x1="" y1="14" x2="1500" y2="14" style="stroke:#969393;stroke-width:1" />
+       </svg>
+       <label class="last-text">Copyright @2020 The Bulletin.All Rights Reserved</label>
+      </div>
+    </div>
+      <script src="bundle.js"></script>
+</body>
+</html>

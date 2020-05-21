@@ -1,0 +1,191 @@
+body{
+    background-color: white;
+}
+ 
+.title-bar{
+     margin-left: 44%;
+     margin-top: 1%;
+}
+ 
+.line{
+   margin-top: 1%;
+   margin-left:21%;
+   width: 60%;
+   height: .5px;
+   border-bottom: 1px solid #b8b5b5;
+ 
+}
+ 
+.login{
+   margin-top: 5px;
+   margin-left: 35%;
+   padding-top: 30px;  
+    color: #fff;
+   height: 250px;
+   width: 400px;
+} 
+.pass{
+   margin-top: 20px;
+} 
+.above{
+       font-family: sans-serif;
+       margin-bottom: 5px;  
+       color: black;
+       font-size: 17px;  
+}
+ 
+button {
+ 
+   background-color: rgba(57, 13, 114, 0.2);
+   color: white;
+   height: 40px;
+   width: 40% ;
+   
+}
+ 
+.login input{
+   width: 500px;
+   height: 38px;
+}
+ 
+.Login_next{
+   width: 500px;
+   height: 50px;
+   background-color: maroon;
+   margin-top: 10px;
+   font-weight: 400;
+   font-size: 25px;
+   font-family: sans-serif;
+}
+ 
+#email{
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+ 
+.check{
+ 
+   margin-top: 0;
+   padding-bottom: 30px;
+}
+ 
+#password{
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+ 
+.sign{
+   margin-top: 15px;
+}
+ 
+ 
+.sign{
+ 
+   margin-top: 20px;
+}
+.head-login{
+   font-size: 45px;
+   margin-bottom: 30px; 
+   color: black;
+ 
+}
+.new{
+   margin-left: 90px;
+   margin-top: 20px;
+   width: 500px;
+   height: 50px;
+   color: black;
+   font-family: 'Noto Serif', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+ 
+}
+ 
+.new2{
+   margin-top: 20px;
+   width: 500px;
+   height: 50px;
+   color: maroon;
+   font-family: 'Noto Serif', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+ 
+}
+ 
+ 
+ 
+/* -webkit-tap-highlight-color: rgba(0,0,0,0);
+line-height: 1.42857143;
+font-size: 12px;
+font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+box-sizing: border-box;
+color: #999;
+width: 450px;
+margin: 0 auto;
+padding: 40px; */
+.last{
+   margin-top: 12%;
+   width: 100%;
+   height: 410px;
+   background-color:  black;
+   color: white;
+ }
+ .end{
+   margin-top: 3%;
+   margin-left: 0%;
+   
+ }
+ .end:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ .col{
+   float: left;
+   width: 23%;
+   text-align: center;
+   margin-top: 4%;
+   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+ }
+ .ez{
+   font-family: inherit;
+   text-align: center;
+   font-size: 20px;
+ }
+ .ui{
+   color: rgb(146, 140, 140);
+   margin-left: 19%;
+   text-align: left;
+   font-size: 15px;
+ }
+ .ui:hover{
+   color: rgb(64, 143, 64);
+ }
+ .ezy{
+   font-family: inherit;
+   text-align: center;
+   font-size: 20px;
+ }
+ .uii{
+   color: rgb(146, 140, 140);
+   margin-left: 30%;
+   text-align: left;
+   font-size: 15px;
+ }
+ .uii:hover{
+   color: rgb(64, 143, 64);
+ }
+ .ezyy{
+   margin-left: 17%;
+   font-family: inherit;
+   text-align: center;
+   font-size: 20px;
+ }
+ .last-text{
+   font-size: 14px;
+   margin-left: 6.5%;
+   color: rgb(146, 140, 140);
+ }
+ .wer{
+   text-decoration: none;
+ }
