@@ -17,7 +17,7 @@
     "browserify": "^16.5.1",
     "cookie-parser": "^1.4.4",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "get-stream": "^5.1.0",
     "hbs": "^4.1.0",
     "jsonwebtoken": "^8.5.1",
